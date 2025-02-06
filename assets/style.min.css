@@ -1,0 +1,367 @@
+/*
+ * Moon by GetTemplates.co
+ * URL: https://demos.freehtml5.co/moon/
+ */
+html {
+  --color-link: #f15e75;
+  --color-link: #ad0f83;
+
+  font-size: 10px;
+  overflow-x: hidden;
+  box-sizing: border-box; 
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  min-width: 360px;
+  background-image: url(./../img/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  font-weight: 300;
+  font-size: 1.6rem;
+  font-family: "Roboto Condensed", -apple-system,BlinkMacSystemFont,Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #222;
+}
+body:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  opacity: 0.8;
+  z-index: -1;
+  background: #f12711;
+  background: -webkit-linear-gradient(to right, #f5af19, #f12711);
+  background: linear-gradient(to right, #f5af19, #f12711);
+}
+
+.boxed-page-wrapper {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+.boxed-page {
+  max-width: 940px;
+  margin: 0 auto;
+  position: relative;
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11),
+    0 5px 15px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+}
+
+@media (min-width: 960px) {
+  .boxed-page .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media (max-width: 960px) {
+  .boxed-page-wrapper {
+    margin: 2.5rem;
+  }
+}
+@media (max-width: 767px) {
+  .boxed-page-wrapper {
+    margin: 1.5rem;
+  }
+  .jumbotron {
+    min-height: 300px;
+    padding: 40px 0;
+  }
+  .jumbotron .jami-logo {
+    zoom: 80%;
+  }
+}
+
+h1 {
+  font-size: 4.8rem;
+}
+
+h2 {
+  font-size: 3.6rem;
+  font-size: 3.2rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2.4rem;
+}
+
+h5 {
+  font-size: 1.8rem;
+  font-size: 2rem;
+}
+
+h6 {
+  font-size: 1.6rem;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 300;
+  line-height: 1.2em;
+}
+
+h4,
+h5,
+h6 {
+  line-height: 1.5em;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  margin-top: 0;
+}
+
+p {
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+
+.section-title {
+  margin-bottom: 15px;
+}
+.section-sub-title {
+  margin-bottom: 30px;
+}
+
+.btn {
+  font-size: 1.6rem;
+  padding: 0.7rem 1rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+a:focus,
+button:focus {
+  outline: none;
+}
+
+.btn:hover,
+a:hover {
+  text-decoration: none;
+  color: #d05165;
+}
+
+.btn-group-lg > .btn,
+.btn-lg {
+  padding: 1rem;
+}
+
+.btn-group-sm > .btn,
+.btn-sm {
+  padding: 0.5rem;
+}
+
+.section-content {
+  padding: 40px 0;
+}
+
+.title-wrap,
+.section-title {
+  text-align: center;
+}
+.jami-heading .section-sub-title {
+  margin: 0;
+}
+.jami-heading {
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ddd;
+}
+@media (min-width: 960px) {
+  .jami-heading p {
+    max-width:80%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.bg-grey {
+  background-color: #f7f8f9;
+}
+
+.bg-transparent {
+  background: transparent;
+}
+
+.btn-link {
+  color: var(--color-link);
+
+}
+.btn-link:hover {
+  text-decoration: none;
+}
+
+.color-primary {
+  color: var(--color-link);
+}
+
+/* Colours */
+.text-orange {
+  color: #fdba51;
+}
+
+.text-cyan {
+  color: #35b8ad;
+}
+
+.text-red {
+  color: #fc665f;
+}
+
+a {
+  color: var(--color-link);
+}
+
+.fs-40 {
+  font-size: 40px;
+}
+
+.jumbotron {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  min-height: 500px;
+  min-height: 400px;
+  margin-bottom: 0;
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+  background-color: #efeff1;
+  background-image: url(./../img/jami-01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 90%;
+
+  border-radius: 0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  overflow: hidden;
+}
+
+.jumbotron .container {
+  position: relative;
+}
+.jumbotron .jami-logo {
+  width: 225px;
+  height: 225px;
+  border-radius: 200px;
+  overflow: hidden;
+  box-shadow: 2px 2px 9px rgba(10, 10, 10, .1);
+}
+
+
+@media (max-width: 767px) {
+  .jumbotron {
+    min-height: 200px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .section-title br,
+  .section-sub-title br {
+    display: none;
+  }
+}
+
+.jami-lembaga {
+  text-align: center;
+ display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+  align-items: stretch;
+}
+.jami-lembaga [class^="col-"], 
+.jami-lembaga [class*=" col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.jami-lembaga p {
+  font-size: 1.5rem;
+  margin-bottom: .8rem;
+}
+@media (min-width: 576px) {
+  .col-sm-6 {
+    gap: 2rem;
+    -ms-flex: 0 0 46%;
+    flex: 0 0 46%;
+    max-width: 46%;
+  }
+}
+@media (min-width: 768px) {
+  .col-md-4 {
+    -ms-flex: 1 0 30%;
+    flex: 1 0 30%;
+    max-width: auto;
+  }
+}
+
+.jami-sosmed-icon {
+  font-size: 18px;
+  line-height: 14px;
+  gap: .8rem;
+}
+.jami-sosmed-icon .nav-link {
+  color: #444;
+  width: 26px;
+  height: 26px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jami-sosmed-icon .nav-link:hover {
+  color: #fff;
+  background: #444;
+}
+
+footer {
+  padding: 1.2rem 0;
+  border-top: 1px solid #d4d4d4;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.footer-copyright {
+  font-size: 1.3rem;
+}
+.footer-copyright a:not(:hover) {
+  color: #222;
+}
+.footer-copyright > span {
+  display: block;
+  font-size: 1.1rem;
+}
