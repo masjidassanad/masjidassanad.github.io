@@ -331,14 +331,14 @@ a {
 }
 
 .jami-sosmed-icon {
-  font-size: 18px;
+  font-size: 24px;
   line-height: 14px;
-  gap: .8rem;
+  gap: 1.4rem;
 }
 .jami-sosmed-icon .nav-link {
   color: #444;
-  width: 26px;
-  height: 26px;
+  width: 32px;
+  height: 32px;
   border-radius: 6px;
   display: flex;
   justify-content: center;
