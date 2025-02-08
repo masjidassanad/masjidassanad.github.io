@@ -156,6 +156,11 @@ p {
 img {
   max-width: 100%;
 }
+.thumbnail {
+  border: 1px solid #ccc;
+  padding: 3px;
+  border-radius: 5px;
+}
 
 a:focus,
 button:focus {
@@ -180,6 +185,9 @@ a:hover {
 
 .section-content {
   padding: 40px 0;
+}
+.section-content.section-line {
+  border-top: 1px solid #ddd;
 }
 
 .title-wrap,
