@@ -8,7 +8,7 @@ html {
 
   font-size: 10px;
   overflow-x: hidden;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -44,8 +44,8 @@ body:after {
 }
 
 .boxed-page-wrapper {
-  margin-top: 5rem;
-  margin-bottom: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
 }
 .boxed-page {
   max-width: 940px;
@@ -58,8 +58,8 @@ body:after {
 
 @media (min-width: 960px) {
   .boxed-page .container {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 }
 @media (max-width: 960px) {
@@ -305,7 +305,7 @@ a {
   justify-content: center;
   align-items: stretch;
 }
-.jami-lembaga [class^="col-"], 
+.jami-lembaga [class^="col-"],
 .jami-lembaga [class*=" col-"] {
     padding-left: 0 !important;
     padding-right: 0 !important;
@@ -331,14 +331,17 @@ a {
 }
 
 .jami-sosmed-icon {
-  font-size: 24px;
+  /* font-size: 24px; */
+  font-size: 32px;
   line-height: 14px;
   gap: 1.4rem;
 }
 .jami-sosmed-icon .nav-link {
   color: #444;
-  width: 32px;
-  height: 32px;
+  /* width: 32px;
+  height: 32px; */
+  width: 40px;
+  height: 40px;
   border-radius: 6px;
   display: flex;
   justify-content: center;
