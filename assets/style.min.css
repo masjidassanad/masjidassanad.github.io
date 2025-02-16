@@ -1,5 +1,5 @@
 /*
- * Moon by GetTemplates.co
+ * Moon by GetTemplates.co - modified
  * URL: https://demos.freehtml5.co/moon/
  */
 html {
@@ -41,6 +41,23 @@ body:after {
   background: #f12711;
   background: -webkit-linear-gradient(to right, #f5af19, #f12711);
   background: linear-gradient(to right, #f5af19, #f12711);
+}
+
+.blockstack {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.blockstack > * {
+  margin: 0!important;
+}
+.inlinestack {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.inlinestack > * {
+  margin: 0!important;
 }
 
 .boxed-page-wrapper {
@@ -170,7 +187,6 @@ button:focus {
 .btn:hover,
 a:hover {
   text-decoration: none;
-  color: #d05165;
 }
 
 .btn-group-lg > .btn,
@@ -180,7 +196,8 @@ a:hover {
 
 .btn-group-sm > .btn,
 .btn-sm {
-  padding: 0.5rem;
+  padding: 0.4rem;
+  font-size: 1.4rem;
 }
 
 .section-content {
