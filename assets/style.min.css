@@ -1,10 +1,5 @@
-/*
- * Moon by GetTemplates.co - modified
- * URL: https://demos.freehtml5.co/moon/
- */
 html {
-  --color-link: #f15e75;
-  --color-link: #ad0f83;
+  --color-link: #4a049a;
 
   font-size: 10px;
   overflow-x: hidden;
@@ -161,9 +156,6 @@ p {
 .section-title {
   margin-bottom: 15px;
 }
-.section-sub-title {
-  margin-bottom: 30px;
-}
 
 .btn {
   font-size: 1.6rem;
@@ -211,11 +203,8 @@ a:hover {
 .section-title {
   text-align: center;
 }
-.jami-heading .section-sub-title {
-  margin: 0;
-}
 .jami-heading {
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   margin-bottom: 30px;
   border-bottom: 1px solid #ddd;
 }
@@ -313,10 +302,6 @@ a {
     min-height: 200px;
     padding-top: 40px;
     padding-bottom: 40px;
-  }
-  .section-title br,
-  .section-sub-title br {
-    display: none;
   }
 }
 
