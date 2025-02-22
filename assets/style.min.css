@@ -37,6 +37,9 @@ body:after {
   background: -webkit-linear-gradient(to right, #f5af19, #f12711);
   background: linear-gradient(to right, #f5af19, #f12711);
 }
+.container, .container-md, .container-sm, .container-lg, .container-xl {
+  max-width: 100%;
+}
 
 .blockstack {
   display: flex;
@@ -157,11 +160,6 @@ p {
   margin-bottom: 15px;
 }
 
-.btn {
-  font-size: 1.6rem;
-  padding: 0.7rem 1rem;
-}
-
 img {
   max-width: 100%;
 }
@@ -181,6 +179,11 @@ a:hover {
   text-decoration: none;
 }
 
+.btn {
+  font-size: 1.6rem;
+  padding: 0.7rem 1rem;
+}
+
 .btn-group-lg > .btn,
 .btn-lg {
   padding: 1rem;
@@ -188,8 +191,16 @@ a:hover {
 
 .btn-group-sm > .btn,
 .btn-sm {
-  padding: 0.4rem;
+  padding: 0.5rem;
   font-size: 1.4rem;
+}
+
+@media (max-width: 576px) {
+  .btn-group-sm > .btn,
+  .btn-sm {
+    padding: 0.7rem;
+    font-size: 1.5rem;
+  }
 }
 
 .section-content {
@@ -324,8 +335,9 @@ a {
   font-size: 1.5rem;
   margin-bottom: .8rem;
 }
+
 @media (min-width: 576px) {
-  .col-sm-6 {
+  .jami-lembaga .col-sm-6 {
     gap: 2rem;
     -ms-flex: 0 0 46%;
     flex: 0 0 46%;
@@ -333,7 +345,7 @@ a {
   }
 }
 @media (min-width: 768px) {
-  .col-md-4 {
+  .jami-lembaga .col-md-4 {
     -ms-flex: 1 0 30%;
     flex: 1 0 30%;
     max-width: auto;
