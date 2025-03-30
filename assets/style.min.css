@@ -215,9 +215,9 @@ a:hover {
   text-align: center;
 }
 .jami-heading {
-  padding-bottom: 30px;
-  margin-bottom: 30px;
-  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  /* border-bottom: 1px solid #ddd; */
 }
 @media (min-width: 960px) {
   .jami-heading p {
