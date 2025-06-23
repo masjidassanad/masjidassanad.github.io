@@ -215,7 +215,7 @@
             <span id="countdown">Pengalihan dalam 5 detik</span>
         </div>
         
-        <a href="https://abdurrahmanassanad.com" class="redirect-link">Kunjungi Situs Sekarang</a>
+        <a href="https://abdurrahmanassanad.com?utm_source=redirect_page&utm_medium=redirect_assanad&utm_campaign=goto_main_site" class="redirect-link">Kunjungi Situs Sekarang</a>
         <p style="font-size:15px;">Jika Anda tidak dialihkan secara otomatis, silakan klik tombol di atas.</p>
         
         <!-- <div class="footer"></div> -->
@@ -231,6 +231,7 @@
             
             if (seconds <= 0) {
                 clearInterval(countdownInterval);
+                window.location.href = 'https://abdurrahmanassanad.com?utm_source=redirect_page&utm_medium=redirect_assanad&utm_campaign=goto_main_site';
             }
         }, 1000);
     </script>
